@@ -1,5 +1,7 @@
 # Market Basket Analysis using association rule learning
 
+Tech Stack: Python, Tensorflow/Keras, Numpy, Pandas, mlxtend, matplotlib
+
 ## Project Objective:
 1] The main objective is to thoroughly explore the association rule learning techniques that are commonly implemented.
 2] To determine the similarities and differences along with advantages and disadvantages of different ARL algorithms.
@@ -27,28 +29,28 @@
 
 ## Metrics Involved:
 - Support - the percentage of transactions that contain all of the items in an itemset.
-![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/cb33f52c-633b-4381-b589-ea34c3257b8e)
+![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/d1e50b0b-ab8f-46aa-b916-f7d40bf9a785)
 
 
 - Confidence - the probability that a transaction that contains the items on the left hand side of the rule also contains the item on the right hand side (return rate).
-![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/243df631-d61b-4c58-be79-7a38e0c66ba6)
+![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/4ac047a5-be97-4e0c-9dc9-26626d60fb44)
 
 
 - Lift - strength of association between the products on the left and right hand side of the rule. (ratio)
-![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/1c79acb2-d17b-48b1-87d1-7cf1edf27299)
+![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/3ec565dc-7e0a-4fcb-83ff-cbb76a1afda4)
 
 
 - Leverage - measure of difference of X and Y appearing together in the data set and what would be expected if X and Y where statistically dependent. (difference)
-![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/55766704-0b8c-404b-8902-c98be6eb81e3)
+![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/15a68d83-2556-445b-800b-ca515951d617)
 
 
 - Conviction - Intuitively similar to lift however it is directional.
-![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/1874d644-cc5d-4240-b3ce-546608be7496)
+![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/51de5e86-38f3-46b8-a1f8-c5133ba9a2e6)
 
 ## Visualizing the rules:
-![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/f03bea07-e856-42f4-ad55-044ede9c8ea0)
+![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/0c6302b8-7579-4020-ad5d-97f48786c319)
 
-![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/923396cb-5f7c-4c89-8d91-fccf996c3bdb)
+![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/2d2f6ec3-370b-4731-b730-06d33f843516)
 
 ## Running time:
 - Apriori = 2.03 + 0.03 = 2.06 sec
@@ -57,7 +59,8 @@
 
 ## Key differences:
 
-![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/0153a776-3cb9-4c1a-914d-c2244eb38992)
+![image](https://github.com/rushildpatel/Market-basket-analysis/assets/73517149/195e56b0-a178-4ec7-8165-ee08b89ba02b)
+
 
 
 
